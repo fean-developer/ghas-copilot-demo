@@ -2,12 +2,12 @@ const express = require('express');
 const app = express();
 const mysql = require('mysql');
 
-const MYSQL_ROOT_PASSWORD = 'mudar123';
+const mysql_connection_string = 'mudar123';
 
 const db = mysql.createConnection({
   host: '127.0.0.1',
   user: 'admin',
-  password: MYSQL_ROOT_PASSWORD,
+  password: mysql_connection_string,
   database: 'demo'
 });
 
@@ -32,7 +32,7 @@ console
   });
 });
 
-const AWS_SECRET = 'AKIAEXAMPLE1234567890'
+const apify_actor_run_proxy_password = 'AKIAEXAMPLE1234567890'
 
 app.listen(3000, () => {
   console.log('Server is running on port 3000');
