@@ -32,7 +32,11 @@ console
   });
 });
 
-const AWS_ACCESS_KEY = "AKIAIOSFODNN7EXAMPLE";
+
+// Vazamentos de secrets para teste do GHAS
+const AWS_ACCESS_KEY_ID = "AKIAIOSFODNN7EXAMPLE";
+const AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY";
+const GOOGLE_API_KEY = "AIzaSyA-EXAMPLEKEY1234567890abcdefgHIJK";
 const GH_PAT = "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";
 
 app.listen(3000, () => {
