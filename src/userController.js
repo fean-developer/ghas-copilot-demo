@@ -32,7 +32,9 @@ console
   });
 });
 
-const apify_actor_run_proxy_password = 'AKIAEXAMPLE1234567890'
+const AWS_APP_ID = 'AKIAEXAMPLE1234567890'
+const AWS_APP_CLIENT_ID = '12345678901234567890';
+const AWS_TOKEN = 'e8fg45hakhjkabvuiu33878347ujrqo78e012uje888=';
 
 app.listen(3000, () => {
   console.log('Server is running on port 3000');
