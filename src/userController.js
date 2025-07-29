@@ -33,7 +33,6 @@ console
 });
 
 const AWS_ACCESS_KEY = "AKIAIOSFODNN7EXAMPLE";
-//const AWS_SECRET_ACCESS_KEY = "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";
 const MYSQL_CONN = "mysql://admin:SuperSecret123@mydb.example.com:3306/demo_db";
 
 app.listen(3000, () => {
