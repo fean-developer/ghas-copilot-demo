@@ -48,6 +48,10 @@ const GITHUB_OAUTH_TOKEN = "gho_1234567890abcdef1234567890abcdef12345678";
 // Exemplo de GitHub Personal Access Token (PAT)
 const GH_PAT = "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";
 
+const MY_SUPER_SECRET = "sk_live_51H8QwLJk9EXAMPLEKEY1234567890abcdef";
+const INTERNAL_API_TOKEN = "api_tok_1234567890abcdef1234567890abcdef";
+const CUSTOM_SECRET_KEY = "p@ssw0rd!ThisIsAVerySecretKey123456";
+
 app.listen(3000, () => {
   console.log('Server is running on port 3000');
 });
