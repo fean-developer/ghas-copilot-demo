@@ -33,10 +33,16 @@ console
 });
 
 
+
 // Vazamentos de secrets para teste do GHAS
+// Exemplo de AWS Access Key ID e Secret Access Key
 const AWS_ACCESS_KEY_ID = "AKIAIOSFODNN7EXAMPLE";
 const AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY";
-const GOOGLE_API_KEY = "AIzaSyA-EXAMPLEKEY1234567890abcdefgHIJK";
+
+// Exemplo de GitHub Webhook Secret
+const GITHUB_WEBHOOK_SECRET = "whsec_1234567890abcdef1234567890abcdef";
+
+// Exemplo de GitHub Personal Access Token (PAT)
 const GH_PAT = "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";
 
 app.listen(3000, () => {
