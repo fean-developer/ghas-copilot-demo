@@ -42,6 +42,9 @@ const AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY";
 // Exemplo de GitHub Webhook Secret
 const GITHUB_WEBHOOK_SECRET = "whsec_1234567890abcdef1234567890abcdef";
 
+// Exemplo de GitHub OAuth Token
+const GITHUB_OAUTH_TOKEN = "gho_1234567890abcdef1234567890abcdef12345678";
+
 // Exemplo de GitHub Personal Access Token (PAT)
 const GH_PAT = "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";
 
