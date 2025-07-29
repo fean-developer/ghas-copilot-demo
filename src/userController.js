@@ -33,8 +33,7 @@ console
 });
 
 const AWS_ACCESS_KEY = "AKIAIOSFODNN7EXAMPLE";
-const AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY";
-const GH_PAT = 'ghp_abcd1234exampleTokenForDemo';
+const MYSQL_CONN = "mysql://admin:SuperSecret123@mydb.example.com:3306/demo_db";
 
 app.listen(3000, () => {
   console.log('Server is running on port 3000');
