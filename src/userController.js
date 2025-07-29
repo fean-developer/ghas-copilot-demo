@@ -2,12 +2,12 @@ const express = require('express');
 const app = express();
 const mysql = require('mysql');
 
-const mysql_connection_string = 'mudar123';
+const MYSQL_PASSWORD = 'mudar123';
 
 const db = mysql.createConnection({
   host: '127.0.0.1',
   user: 'admin',
-  password: mysql_connection_string,
+  password: MYSQL_PASSWORD,
   database: 'demo'
 });
 
