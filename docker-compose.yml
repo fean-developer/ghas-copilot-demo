@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  mysql:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mysql-demo
+    environment:
+      MYSQL_ROOT_PASSWORD: mudar123
+      MYSQL_DATABASE: demo
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: "mudar123"
+    ports:
+      - "3306:3306"
+    restart: unless-stopped
