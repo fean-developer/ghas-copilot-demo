@@ -2,12 +2,12 @@ const express = require('express');
 const app = express();
 const mysql = require('mysql');
 
-const mysql_connection_string = 'mudar123';
+const MYSQL_PASSWORD = 'mudar123';
 
 const db = mysql.createConnection({
   host: '127.0.0.1',
   user: 'admin',
-  password: mysql_connection_string,
+  password: MYSQL_PASSWORD,
   database: 'demo'
 });
 
@@ -32,8 +32,25 @@ console
   });
 });
 
-const AWS_ACCESS_KEY = "AKIAIOSFODNN7EXAMPLE";
-const AWS_SECRET_ACCESS_KEY = "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";
+
+
+// Vazamentos de secrets para teste do GHAS
+// Exemplo de AWS Access Key ID e Secret Access Key
+const AWS_ACCESS_KEY_ID = "AKIAIOSFODNN7EXAMPLE";
+const AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY";
+
+// Exemplo de GitHub Webhook Secret
+const GITHUB_WEBHOOK_SECRET = "whsec_1234567890abcdef1234567890abcdef";
+
+// Exemplo de GitHub OAuth Token
+const GITHUB_OAUTH_TOKEN = "gho_1234567890abcdef1234567890abcdef12345678";
+
+// Exemplo de GitHub Personal Access Token (PAT)
+const GH_PAT = "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";
+
+const MY_SUPER_SECRET = "sk_live_51H8QwLJk9EXAMPLEKEY1234567890abcdef";
+const INTERNAL_API_TOKEN = "api_tok_1234567890abcdef1234567890abcdef";
+const CUSTOM_SECRET_KEY = "p@ssw0rd!ThisIsAVerySecretKey123456";
 
 app.listen(3000, () => {
   console.log('Server is running on port 3000');
