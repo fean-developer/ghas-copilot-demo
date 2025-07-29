@@ -2,12 +2,12 @@ const express = require('express');
 const app = express();
 const mysql = require('mysql');
 
-const MYSQL_PASSWORD = 'mudar123';
+const mysql_connection_string = 'mudar123';
 
 const db = mysql.createConnection({
   host: '127.0.0.1',
   user: 'admin',
-  password: MYSQL_PASSWORD,
+  password: mysql_connection_string,
   database: 'demo'
 });
 
@@ -33,9 +33,7 @@ console
 });
 
 const AWS_ACCESS_KEY = "AKIAIOSFODNN7EXAMPLE";
-const MYSQL_CONN = "mysql://admin:SuperSecret123@mydb.example.com:3306/demo_db";
-const TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTUxNjIzOTAyMn0.KMUFsIDTnFmyG3nMiGM6H9FNFUROf3wh7SmqJp-QV30"
-
+const AWS_SECRET_ACCESS_KEY = "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";
 
 app.listen(3000, () => {
   console.log('Server is running on port 3000');
