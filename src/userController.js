@@ -34,7 +34,7 @@ console
 
 const AWS_ACCESS_KEY = "AKIAIOSFODNN7EXAMPLE";
 const AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY";
-const GH_PAT = 'ghp_abcd1234exampleTokenForDemo';
+const GH_PAT = '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';
 
 app.listen(3000, () => {
   console.log('Server is running on port 3000');
