@@ -1,0 +1,7 @@
+custom_patterns:
+  - name: AWS_APP_ID
+    regex: 'AKIA[0-9A-Z]{16}'
+    description: "Chave AWS simulada"
+  - name: MYSQL_PASSWORD
+    regex: 'mudar123'
+    description: "Senha do MySQL simulada"
