@@ -2,12 +2,12 @@ const express = require('express');
 const app = express();
 const mysql = require('mysql');
 
-const mysql_connection_string = 'mudar123';
+const MYSQL_PASSWORD = 'mudar123';
 
 const db = mysql.createConnection({
   host: '127.0.0.1',
   user: 'admin',
-  password: mysql_connection_string,
+  password: MYSQL_PASSWORD,
   database: 'demo'
 });
 
@@ -33,7 +33,7 @@ console
 });
 
 const AWS_ACCESS_KEY = "AKIAIOSFODNN7EXAMPLE";
-const AWS_SECRET_ACCESS_KEY = "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";
+const GH_PAT = "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";
 
 app.listen(3000, () => {
   console.log('Server is running on port 3000');
