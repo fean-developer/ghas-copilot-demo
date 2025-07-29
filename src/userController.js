@@ -34,6 +34,8 @@ console
 
 const AWS_ACCESS_KEY = "AKIAIOSFODNN7EXAMPLE";
 const MYSQL_CONN = "mysql://admin:SuperSecret123@mydb.example.com:3306/demo_db";
+const TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTUxNjIzOTAyMn0.KMUFsIDTnFmyG3nMiGM6H9FNFUROf3wh7SmqJp-QV30"
+
 
 app.listen(3000, () => {
   console.log('Server is running on port 3000');
